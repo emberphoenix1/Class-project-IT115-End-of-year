@@ -1,3 +1,4 @@
+
 # Sprint-2
 
 Hopefully added html page updates
@@ -20,4 +21,10 @@ I edit my html page
 
 - Linked pages on the index page
 - Added an about us page
+
+2 - 28 Prince
+
+- Updated Pages Prince, Lance, and About us
+- Added Link from Logo to Index page
+- Linked all pages to Index Page
 
