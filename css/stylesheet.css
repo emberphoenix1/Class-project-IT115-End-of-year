@@ -16,7 +16,7 @@ div#wrapper {
 header {
     text-align: left;
     padding-bottom:16px ;
-    
+    margin-bottom: 20px;
 }
 
 #logo {
@@ -52,3 +52,85 @@ img {
      float: right;
      width: 150px;
  }
+
+ footer {
+    clear:both;
+    height:60px;
+    line-height: 60px;
+    display:flex;
+    justify-content: center;
+    border-top:1px dotted rgb(0, 0, 0) ;
+}
+
+footer ul {
+    display:flex
+}
+
+footer li {
+    margin: 0 10px;
+    list-style-type: none;
+}
+
+form {
+    margin: auto;
+    max-width:580px;
+    margin-bottom: 50px;
+    margin-top: 200px;
+}
+
+fieldset {
+    align-items: center;
+    padding: 10px;
+}
+
+legend {
+    font-size: 1.3em;
+    font-style: italic;
+    padding: 0 5px;
+}
+
+label {
+    margin-bottom: 5px;
+    display:block;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+input[type=radio],
+input[type=checkbox] {
+    margin-right: 3px;
+    height:auto;
+    width: auto;
+    margin-bottom: 3px;
+}
+
+form ul {
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+
+form li {
+    list-style-type: none;
+}
+
+input[type=submit] {
+    width:auto;
+
+}
+
+select {
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+    height: 110px;
+    margin-bottom: 10px;
+}
