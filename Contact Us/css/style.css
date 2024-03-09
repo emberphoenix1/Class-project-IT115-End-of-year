@@ -87,23 +87,3 @@ body{
 .btn:hover{
 	opacity: 0.8;
 }
-
-footer {
-	margin-top: 50px;
-    clear:both;
-    height:60px;
-    line-height: 60px;
-    display:flex;
-    justify-content: center;
-}
-
-footer ul {
-    display:flex;
-  
-}
-
-footer li {
-	color: white;
-    margin: 0 10px;
-    list-style-type: none;
-}
