@@ -1,0 +1,95 @@
+/* CSS Stylesheet for the TEAM 5 project */
+
+body {
+    background:  url("../Rodas HTMLPage/img/bg.jpg") no-repeat;
+}
+.container{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background: url("../Rodas HTML Page/img/bg.jpg") no-repeat;
+    background-size: cover;
+    background-position: 50% 36%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.content{
+    position: relative;
+    max-width: 700px;
+    padding: 2rem;
+    z-index: 1;
+}
+
+div#wrapper {
+    
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 970px;
+    height: 300px;
+    margin: px auto 0 auto;
+    padding: 10px;
+}
+
+
+
+header {
+    text-align: left;
+    padding-bottom:16px ;
+    
+}
+
+#logo {
+    display: inline;
+    float:none;
+    border: none;
+    size: 10inch;
+}
+
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:goldenrod;
+    text-align: center;
+    margin: 20px 120px 20px -200px;
+}
+
+
+h2{
+    background-color:#3d4e68;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: antiquewhite;
+    text-align: center;
+    margin: 20px 120px 20px -200px;
+}
+
+p,li,ul {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    margin: 20px 120px 20px -198px;
+    text-align: justify;
+}
+
+img {
+    border: #3d4e68 5px solid;
+     margin: 20px 120px 20px 40px;
+     float: right;
+     width: 150px;
+ }
