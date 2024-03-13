@@ -101,3 +101,21 @@ img {
 
 
  } 
+
+ footer {
+    clear:both;
+    height:60px;
+    line-height: 60px;
+    display:flex;
+    justify-content: center;
+}
+
+footer ul {
+    display:flex;
+  
+}
+
+footer li {
+    margin: 0 10px;
+    list-style-type: none;
+}
